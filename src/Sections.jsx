@@ -1,11 +1,12 @@
 import './App.css'
+import HomeSection from './Sections/HomeSection.jsx'
 
-const Neu = () => {
+const Sections = () => {
     return (
     <main>
-        <h1>Jaja</h1>
+        <HomeSection />
     </main>
 )
 }
 
-export default Neu;
+export default Sections;

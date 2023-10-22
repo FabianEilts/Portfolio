@@ -1,13 +1,21 @@
 import './App.css'
 
-const App = () => {
+const Header = () => {
     return (
             <header>
-                <nav>
-                    <p>Hallo</p>
+                <nav className='flex justify-between top-0 mx-12 my-10'>
+                    <div id="logo">
+                        <img className='w-14 h-14' src="/ExampleLogo.jpg" />
+                    </div>
+                    <div className='flex gap-10 place-items-center'>
+                        <a href=""><span className="text-secondaryColor glow-effect">01. </span>About</a>
+                        <a href=""><span className="text-secondaryColor glow-effect">02. </span>Skills</a>
+                        <a href=""><span className="text-secondaryColor glow-effect">03. </span>Projects</a>
+                        <a href=""><span className="text-secondaryColor glow-effect">04. </span>Contact</a>
+                    </div>
                 </nav>
             </header>
     )
 }
 
-export default App;
+export default Header;
