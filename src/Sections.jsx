@@ -1,9 +1,9 @@
 import './App.css'
-import HomeSection from './Sections/HomeSection.jsx'
+import HomeSection from './sections/HomeSection.jsx'
 
 const Sections = () => {
     return (
-    <main>
+    <main className="mx-40">
         <HomeSection />
     </main>
 )
