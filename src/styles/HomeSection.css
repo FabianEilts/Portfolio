@@ -1,6 +1,23 @@
 .homeSection{
     min-height: 90vh !important;
 }
+.greeting{
+    position: absolute;
+    top: 40%;
+    font-weight: 700;
+    font-size: 2.6vw;
+    color: white;
+    max-width: 640px;
+}
+.shapes{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    max-height: 680px;
+}
+.photo{
+    display: block;
+}
 canvas {
     width: 100%;
     height: 100%;

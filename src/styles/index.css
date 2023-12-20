@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body{
-    background: black;
+    background: #333333;
     overflow-x: hidden;
 }
 a{
