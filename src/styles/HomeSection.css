@@ -2,21 +2,35 @@
     min-height: 90vh !important;
 }
 .greeting{
-    position: absolute;
-    top: 40%;
+    position: relative;
+    margin-top: 4em;
     font-weight: 700;
     font-size: 2.6vw;
     color: white;
     max-width: 640px;
+    height: 15rem;
 }
-.shapes{
-    position: absolute;
-    top: 20%;
-    right: 10%;
+.shapeFigure{
+    width: 23rem;
+    height: 24.5em;
+    position: relative;
+    margin-left: 8em;
+    margin-top: 4em;
     max-height: 680px;
 }
+.avatar-shapes{
+    position: absolute;
+    width: 45em;
+    height: 130%;
+}
 .photo{
-    display: block;
+    position: absolute;
+    min-width: 24em;
+    min-height: 25em;
+    margin-left: 11em;
+    margin-top: 3em;
+    background-size: cover;
+    background-image: url("public/handsome.png");
 }
 canvas {
     width: 100%;
