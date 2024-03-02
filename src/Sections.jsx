@@ -4,7 +4,7 @@ import AboutSection from "./sections/AboutSection.jsx";
 
 const Sections = () => {
     return (
-    <main className="mx-40">
+    <main>
         <HomeSection />
         <AboutSection />
     </main>

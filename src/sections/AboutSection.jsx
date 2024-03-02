@@ -6,7 +6,7 @@ import '../styles/AboutSection.css'
 
 const AboutSection = () => {
     return (
-        <section className="section">
+        <section className="section aboutSection">
             <div className="inner-content">
                 <h1 className="tag">&lt;about&gt;</h1>
                 <h1 className="tag closing-tag">&lt;/about&gt;</h1>

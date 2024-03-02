@@ -1,20 +1,20 @@
 .homeSection{
-    min-height: 90vh !important;
+    min-height: 75vh !important;
+    background: #333333;
 }
 .greeting{
     position: relative;
     margin-top: 4em;
     font-weight: 700;
-    font-size: 2.6vw;
     color: white;
-    max-width: 640px;
+    min-width: 640px;
     height: 15rem;
 }
 .shapeFigure{
     width: 23rem;
     height: 24.5em;
     position: relative;
-    margin-left: 8em;
+    margin-left: 9em;
     margin-top: 4em;
     max-height: 680px;
 }
@@ -25,14 +25,45 @@
 }
 .photo{
     position: absolute;
+    top: 3.5rem;
     min-width: 24em;
     min-height: 25em;
-    margin-left: 11em;
-    margin-top: 3em;
+    margin-left: 10.9em;
     background-size: cover;
-    background-image: url("public/handsome.png");
+    background-image: url("handsome.png");
 }
 canvas {
     width: 100%;
     height: 100%;
 }
+.cursor {
+    animation: blink 1s step-end infinite;
+  }
+  
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+}
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

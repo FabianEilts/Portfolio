@@ -4,7 +4,8 @@
 }
 .inner-content{
     display: flex;
-    margin-left: 5em;
+    margin-left: 11rem;
+    margin-right: 11rem;
 }
 .tag{
     position: absolute;
