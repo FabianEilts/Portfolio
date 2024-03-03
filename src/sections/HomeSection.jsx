@@ -5,13 +5,17 @@ import '../styles/HomeSection.css'
 //https://i.pinimg.com/736x/8a/ee/c7/8aeec7bee05f84d7d1b7b0fbf28515a6.jpg
 
 const HomeSection = () => {
+    const handleResumeClick = () => {
+        alert("Test");
+    }
+
     return (
             <section className="section homeSection">
                     <div className="inner-content mx-44 mt-20">
                         <div className="greeting mt-60">
                             <span className="text-6xl">Hello, I am Fabian.</span><br></br>
                             <span className="text-2 text-secondaryColor typeWriter">Web Developer from Germany<span className="cursor">|</span></span><br/>
-                            <button className="bg-white text-black h-8 w-36 flex justify-center rounded-lg mt-5 leading-8 items-center">
+                            <button id="resumeBtn" onClick={handleResumeClick} className="bg-white text-black h-8 w-36 flex justify-center rounded-lg mt-5 leading-8 items-center">
                                 Resume
                                 <svg className="ml-2" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
