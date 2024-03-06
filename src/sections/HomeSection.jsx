@@ -8,10 +8,6 @@ import HireMeBtn from '../components/buttons/HireMeBtn.jsx'
 //https://i.pinimg.com/736x/8a/ee/c7/8aeec7bee05f84d7d1b7b0fbf28515a6.jpg
 
 const HomeSection = () => {
-    const handleResumeClick = () => {
-        alert("Test");
-    }
-
     return (
             <section className="section homeSection">
                     <div className="inner-content mx-44 mt-20">
