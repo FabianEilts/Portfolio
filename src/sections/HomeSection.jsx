@@ -14,7 +14,7 @@ const HomeSection = () => {
                         <div className="greeting mt-60">
                             <span className="text-6xl">Hello, I am Fabian.</span><br></br>
                             <span className="text-2 text-secondaryColor typeWriter">Web Developer from Germany<span className="cursor">|</span></span><br/>
-                            <div className="flex gap-5">
+                            <div className="flex gap-5 mt-5">
                                 <HireMeBtn />
                                 <ResumeBtn />
                             </div>

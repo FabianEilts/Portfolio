@@ -4,7 +4,7 @@ const ResumeBtn = () => {
     }
     
     return (  
-        <button id="resumeBtn" onClick={handleResumeClick} className="bg-white text-black h-8 w-36 flex justify-center rounded-lg mt-5 leading-8 items-center">
+        <button id="resumeBtn" onClick={handleResumeClick} className="bg-white text-black h-8 w-36 flex justify-center rounded-lg leading-8 items-center">
             Resume
             <svg className="ml-2" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
