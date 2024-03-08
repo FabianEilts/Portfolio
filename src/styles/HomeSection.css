@@ -1,7 +1,61 @@
 .homeSection{
-    min-height: 90vh !important;
+    min-height: 75vh !important;
+    background: #333333;
 }
+
+.greeting{
+    position: relative;
+    margin-top: 4em;
+    font-weight: 700;
+    color: white;
+    min-width: 640px;
+    height: 15rem;
+}
+
+.shapeFigure{
+    width: 23rem;
+    height: 24.5em;
+    position: relative;
+    margin-left: 9em;
+    margin-top: 4em;
+    max-height: 680px;
+}
+
+.avatar-shapes{
+    position: absolute;
+    width: 45em;
+    height: 130%;
+}
+
+.photo{
+    position: absolute;
+    top: 3.5rem;
+    min-width: 24em;
+    min-height: 25em;
+    margin-left: 10.9em;
+    background-size: cover;
+    background-image: url("handsome.png");
+}
+
 canvas {
     width: 100%;
     height: 100%;
+}
+
+.cursor {
+    animation: blink 1s step-end infinite;
+  }
+  
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+}
+
+#resumeBtn:hover{
+    background-color: #d9d9d9;
+}
+
+#hireMeBtn:hover{
+    background-color: #060606;
 }

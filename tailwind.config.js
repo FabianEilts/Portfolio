@@ -8,6 +8,10 @@ export default {
     extend: {
       colors:{
         secondaryColor: '#e9b171',
+        turkis: '#48eddd',
+      },
+      fontSize: {
+        2: '2rem'
       },
     },
   },

@@ -2,3 +2,19 @@
     margin: 0 auto;
     min-height: 100vh;
 }
+.inner-content{
+    display: flex;
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+.tag{
+    position: absolute;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    color: #e9b171;
+    line-height: 1;
+}
+.closing-tag{
+    position: absolute;
+    margin-top: 27em;
+}

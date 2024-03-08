@@ -3,7 +3,7 @@ import './App.css'
 const Header = () => {
     return (
             <header>
-                <nav className='flex justify-between top-0 mx-12 my-10'>
+                <nav className='flex justify-between mx-12 my-5'>
                     <div id="logo">
                         <img className='w-14 h-14' src="/ExampleLogo.jpg" />
                     </div>
