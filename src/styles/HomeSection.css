@@ -1,6 +1,6 @@
 .homeSection{
     min-height: 75vh !important;
-    background: #333333;
+    background: #eedbce;
 }
 
 .greeting{
@@ -10,6 +10,14 @@
     color: white;
     min-width: 640px;
     height: 15rem;
+}
+
+.greetingHello{
+    color: #222;
+}
+
+.greetingDescription{
+    color: #555;
 }
 
 .shapeFigure{
@@ -48,9 +56,13 @@
 }
 
 #resumeBtn:hover{
-    background-color: #d9d9d9;
+    background-color: #eeeeee;
+}
+
+#hireMeBtn{
+    background-color: #c4421a;
 }
 
 #hireMeBtn:hover{
-    background-color: #060606;
+    background-color: #b8411c;
 }

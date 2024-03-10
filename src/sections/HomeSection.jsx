@@ -12,8 +12,8 @@ const HomeSection = () => {
             <section className="section homeSection">
                     <div className="inner-content mx-44 mt-20">
                         <div className="greeting mt-60">
-                            <span className="text-6xl">Hello, I am Fabian.</span><br></br>
-                            <span className="text-2 text-secondaryColor typeWriter">Web Developer from Germany<span className="cursor">|</span></span><br/>
+                            <span className="greetingHello text-6xl">Hello, I am Fabian.</span><br></br>
+                            <span className="greetingDescription text-2 typeWriter">Web Developer from Germany<span className="cursor">|</span></span><br/>
                             <div className="flex gap-5 mt-5">
                                 <HireMeBtn />
                                 <ResumeBtn />

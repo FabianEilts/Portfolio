@@ -1,6 +1,6 @@
 .section{
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 106vh;
 }
 .inner-content{
     display: flex;
@@ -9,6 +9,7 @@
 }
 .tag{
     position: absolute;
+    margin-top: 5em;
     font-family: 'Inconsolata', monospace;
     font-size: 2rem;
     color: #e9b171;
@@ -16,5 +17,5 @@
 }
 .closing-tag{
     position: absolute;
-    margin-top: 27em;
+    margin-top: 30em;
 }
