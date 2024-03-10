@@ -8,15 +8,3 @@ body{
     background: #333333;
     overflow-x: hidden;
 }
-a{
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-}
-a:hover{
-    color: #e9b171;
-}
-.glow-effect {
-    text-align: center;
-    color: #e9b171;
-    text-shadow: 0 0 5px #e9b171, 0 0 10px #e9b171;
-}
