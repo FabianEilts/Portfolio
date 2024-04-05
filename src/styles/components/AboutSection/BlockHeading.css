@@ -1,0 +1,11 @@
+.blockHeader{
+    min-height: 5rem;
+    max-width: 17rem;
+    border: 2px solid #555;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C4421A;
+    margin: 5rem auto 0 auto;
+}

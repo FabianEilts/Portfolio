@@ -2,11 +2,12 @@
     margin: 0 auto;
     min-height: 106vh;
 }
+
 .inner-content{
-    display: flex;
     margin-left: 11rem;
     margin-right: 11rem;
 }
+
 .tag{
     position: absolute;
     margin-top: 5em;
@@ -15,7 +16,20 @@
     color: #e9b171;
     line-height: 1;
 }
+
 .closing-tag{
     position: absolute;
     margin-top: 30em;
+}
+
+.sectionHeading{
+    height: 6rem;
+    width: 100%;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

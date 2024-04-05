@@ -1,0 +1,9 @@
+.blockContent{
+    min-height: 25rem;
+    max-width: 33rem;
+    border: 3px solid #C4421A;
+    border-radius: 8px;
+    margin-top: 8rem;
+    padding: 1rem;
+    text-align: center;
+}
