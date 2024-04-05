@@ -1,6 +1,5 @@
 import './App.css'
 import "./styles/Header.css"
-import HireMeBtn from './components/buttons/HireMeBtn'
 
 const Header = () => {
     const scrolled = () => {
@@ -30,7 +29,7 @@ const Header = () => {
                     </svg>
                     </div>
                     <div className='flex gap-14 place-items-center mr-36'>
-                        <a className='text-xl' href="#">About</a>
+                        <a className='text-xl' href="#aboutSection">About</a>
                         <a className='text-xl' href="#">Skills</a>
                         <a className='text-xl' href="#">Projects</a>
                         <a className='text-xl' href="#">Contact</a>

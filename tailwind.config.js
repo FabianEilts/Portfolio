@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       colors:{
-        secondaryColor: '#e9b171',
+        secondaryColor: '#C4421A',
         turkis: '#48eddd',
+        darkGray: '#222',
+        gray: '#555'
       },
       fontSize: {
         2: '2rem'
