@@ -1,35 +1,22 @@
-.section{
-    margin: 0 auto;
-    min-height: 106vh;
+.section {
+	position: relative;
+	margin: 0;
 }
 
-.inner-content{
-    margin-left: 11rem;
-    margin-right: 11rem;
+.inner-content {
+	position: relative;
+	margin-left: 11rem;
+	margin-right: 11rem;
 }
 
-.tag{
-    position: absolute;
-    margin-top: 5em;
-    font-family: 'Inconsolata', monospace;
-    font-size: 2rem;
-    color: #e9b171;
-    line-height: 1;
+.sectionHeading {
+	height: 6rem;
+	width: 100%;
 }
 
-.closing-tag{
-    position: absolute;
-    margin-top: 30em;
-}
-
-.sectionHeading{
-    height: 6rem;
-    width: 100%;
-}
-
-hr{
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
